@@ -1,0 +1,968 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Press Application| MUNDP 2014</title>
+<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+</head>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #FFFFFF; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	font-weight: bold;
+}
+a:visited {
+	color: #013DB1;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other elements ~~ */
+.wrapper {
+	width: 960px;
+	height: 2310px;
+	background-color: #FFF;
+	margin: 0 auto; 
+	box-shadow:0px 1px 5px #000;/* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+
+.logo	{
+	padding-left:27px;
+	padding-top:22px ;
+	
+}
+
+#twitter	{
+	padding-left:68px;
+	padding-top:8px;
+	float:left;
+
+}
+
+#facebook	{
+
+	padding-left:140px;
+	padding-top:0px;
+
+}
+
+#by	{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding-top:25px;
+	font-style:italic;
+	width:365px;
+	float:right;
+	font-size:14px;
+	padding-right:10px;
+
+	
+
+}
+#copyright	{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:10.5px;
+	margin-top:22px;
+	padding-left:10px;
+	
+	
+
+
+	
+}
+
+.nav	{
+	width: 960px;
+	background-image:url(images/popup_r4_c1.png);
+	background-color:#FFF;
+	
+}
+
+.banner	{
+	background-image:url(images/banner_2/banner_bg.jpg);
+	background-repeat:no-repeat;
+	weight:960px;
+	height:172px;
+	margin-top:38px;
+	box-shadow:0px 0.25px 1px #000;
+	
+}
+
+#thimun	{
+	padding-left:721px;
+	padding-top:122px;
+	opacity:1;
+	
+}
+
+p	{
+	padding-left:225px;
+	padding-top:25px;
+	
+	
+}
+
+	
+
+
+	
+	
+
+	
+.content {
+
+	padding: 0px 0;
+
+	
+	height:1810px;
+	
+	
+}
+
+
+.content	p	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:60px;
+	font-weight:bolder;
+	padding-top:150px;
+	
+	
+	
+	
+	
+}
+
+
+/* ~~ to be copied ~~ */
+
+#conference_name	{
+	
+	padding-right:138px;
+	float:right;
+	font-weight:bold;
+	font-size:28px;
+	color:#FFFFFF;
+	padding-top:20px;
+	text-shadow: 0.25px 0.25px 0.25px #000;
+}
+
+
+.commitment {
+	font-size: 25px;
+	color: #FFF;
+	font-weight: bold;
+	font-style: italic;
+	padding-right:20px;;
+	float:right;
+	padding-top:20px;
+	text-shadow: 0.25px 0.25px 0.25px #000;
+	
+}
+
+.year {
+	font-size: 81px;
+	float:right;
+	padding-right:15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-shadow: 0.25px 0.25px 0.25px #000;
+}
+
+
+
+
+.footer	{
+	width:960px;
+	height:155px;
+	background-color:#0074BC;
+	background-image:url(images/bg_bottomlines.png);
+}
+
+
+
+.top	{
+	background-repeat:no-repeat;
+	background-color:#077DBF;
+	background-image:url(images/bg_toplines.png);
+	height:150px;
+	
+	
+}
+
+/* ~~ to be copied ~~ */
+
+
+
+#headline	{
+	font-weight:bold;
+	color:#FFFFFF;
+	font-size:42px;
+	text-shadow: 3px 3px 3px #000;
+	float:left;
+	padding-top:20px;
+	padding-left:10px;
+	
+	
+	
+	
+}
+
+
+#writtenstuff	{
+
+	margin-top:20px;
+	font-size:20px;
+
+	background-color:#ECECEC;
+	padding-left:20px;
+	font-family:helvetica;
+	text-decoration:none;
+	color:#000000;
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color:#FF9933;
+}
+</style>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body onload="MM_preloadImages('images/logo_2.png')">
+
+
+
+<div class="wrapper">
+
+  <div class="top">
+ 
+ 
+ <span class="year">2014</span>
+ 
+    
+<div id="conference_name">
+  
+  Model United Nations &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+    Development Programme
+    
+   </div>
+ 
+  
+  	<div class="logo">
+    <a href="index.html" onmouseover="MM_swapImage('Image1','','images/logo_2.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/logo.png" id="Image1" /> </a>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+  <div class="nav">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a class="MenuBarItemSubmenu" style="font-weight:bold" ;  href="#">Conference </a>
+        <ul>
+          <li><a href="exec.html"  class="MenuBarHorizontal">Executive Committee</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="fees.html">Fees</a></li>
+          <li><a href="transportation.html">Transportation</a></li>
+          <li><a href="press.html">Press</a></li>
+          <li><a href="stoff.html">Student Officers</a></li>
+          <li><a href="schools.html">Attending Schools</a></li>
+        </ul>
+      </li>
+      <li><a href="committees.html">Committees</a></li>
+      <li><a class="MenuBarItemSubmenu" style="font-weight:bold" href="#">Registration </a>
+        <ul>
+         <li><a href="school_registration.html" class="MenuBarHorizontal">School Registration</a></li>
+          <li><a href="stoff_registration.html">Student Officer Application</a></li>
+          <li><a href="icj_registration.html">International Court of Justice Application</a></li>
+           <li><a href="press_registration.html">Press Member Application</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a>        </li>
+      <li><a href="kocschool.html">The Koc School</a></li>
+      
+    </ul>
+  </div>
+  
+  <div class="banner">
+  
+  <div id="headline">
+  
+ Press Member Application
+  </div>
+  <div id="thimun">
+  <a href="http://thimun.org" target="_blank"><img src="images/thimun.png" /> </a>
+  </div>
+  	
+ </div>
+ 
+ <div class="content">
+ 
+ 
+ <!-- FORM: HEAD SECTION -->
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://www.tfaforms.com/form-builder/4.0.1/css/wforms-layout.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 8]>
+    <link href="https://www.tfaforms.com/form-builder/4.0.1/css/wforms-layout-ie8.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="https://www.tfaforms.com/form-builder/4.0.1/css/wforms-layout-ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 6]>
+    <link href="https://www.tfaforms.com/form-builder/4.0.1/css/wforms-layout-ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <link href="https://www.tfaforms.com/themes/get/default" rel="stylesheet" type="text/css" />
+    <link href="https://www.tfaforms.com/form-builder/4.0.1/css/wforms-jsonly.css" rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
+    <script type="text/javascript" src="https://www.tfaforms.com/wForms/3.6/js/wforms.js"></script>
+    <script type="text/javascript" src="https://www.tfaforms.com/js/replace_variables.js"></script>
+    <script type="text/javascript" src="https://www.tfaforms.com/wForms/3.6/js/wforms_prefill.js"></script>
+        <script type="text/javascript" src="https://www.tfaforms.com/wForms/3.6/js/localization-en_US.js"></script>
+
+<!-- FORM: BODY SECTION -->
+<div class="wFormContainer" style="width: 958px;" >
+
+  <div class=""><div class="wForm" id="tfa_0-WRPR" dir="ltr">
+<div class="codesection" id="code-tfa_0"></div>
+<form method="post" action="https://www.tfaforms.com/responses/processor" class="hintsBelow labelsAbove" id="tfa_0" enctype="multipart/form-data">
+<fieldset id="tfa_1" class="section column">
+<legend id="tfa_1-L"><b>Personal Information</b></legend>
+<table class="columnLayout">
+<tr>
+<td><div id="tfa_2-D" class="oneField    ">
+<label id="tfa_2-L" for="tfa_2" class="label preField reqMark">Name</label><br><div class="inputWrapper"><input type="text" id="tfa_2" name="tfa_2" value="" style="width: 280px" placeholder="" class="required"></div>
+</div></td>
+<td><div id="tfa_3-D" class="oneField    ">
+<label id="tfa_3-L" for="tfa_3" class="label preField reqMark">Surname</label><br><div class="inputWrapper"><input type="text" id="tfa_3" name="tfa_3" value="" size="40" placeholder="" class="required"></div>
+</div></td>
+</tr>
+<tr>
+<td><div id="tfa_4-D" class="oneField    ">
+<label id="tfa_4-L" for="tfa_4" class="label preField reqMark">Sex</label><br><div class="inputWrapper"><span id="tfa_4" class="choices  required"><span class="oneChoice"><input type="radio" value="tfa_5" class="" id="tfa_5" name="tfa_4"><label class="label postField" id="tfa_5-L" for="tfa_5">Male</label></span><span class="oneChoice"><input type="radio" value="tfa_6" class="" id="tfa_6" name="tfa_4"><label class="label postField" id="tfa_6-L" for="tfa_6">Female</label></span></span></div>
+</div></td>
+<td><div id="tfa_7-D" class="oneField    ">
+<label id="tfa_7-L" for="tfa_7" class="label preField reqMark">e-Mail Address</label><br><div class="inputWrapper"><input type="text" id="tfa_7" name="tfa_7" value="" size="40" placeholder="" class="validate-email required"></div>
+</div></td>
+</tr>
+<tr>
+<td><div id="tfa_8-D" class="oneField    ">
+<label id="tfa_8-L" for="tfa_8" class="label preField reqMark">Birthdate</label><br><div class="inputWrapper">
+<input type="text" id="tfa_8" name="tfa_8" value="" style="width: 280px" placeholder="" class="validate-date required">
+<span class="field-hint-inactive" id="tfa_8-H"><span id="tfa_8-HH" class="hint">MM/DD/YYYY</span></span>
+</div>
+</div></td>
+<td><div id="tfa_9-D" class="oneField    ">
+<label id="tfa_9-L" for="tfa_9" class="label preField reqMark">School</label><br><div class="inputWrapper"><input type="text" id="tfa_9" name="tfa_9" value="" size="40" placeholder="" class="required"></div>
+</div></td>
+</tr>
+<tr>
+<td><div id="tfa_10-D" class="oneField    ">
+<label id="tfa_10-L" for="tfa_10" class="label preField ">Country</label><br><div class="inputWrapper"><select id="tfa_10" name="tfa_10" class=""><option value="">Please select...</option>
+<option value="tfa_11" class="">Afghanistan</option>
+<option value="tfa_12" class="">Albania</option>
+<option value="tfa_13" class="">Algeria</option>
+<option value="tfa_14" class="">American Samoa</option>
+<option value="tfa_15" class="">Andorra</option>
+<option value="tfa_16" class="">Angola</option>
+<option value="tfa_17" class="">Anguilla</option>
+<option value="tfa_18" class="">Antarctica</option>
+<option value="tfa_19" class="">Antigua and Barbuda</option>
+<option value="tfa_20" class="">Argentina</option>
+<option value="tfa_21" class="">Armenia</option>
+<option value="tfa_22" class="">Aruba</option>
+<option value="tfa_23" class="">Australia</option>
+<option value="tfa_24" class="">Austria</option>
+<option value="tfa_25" class="">Azerbaijan</option>
+<option value="tfa_26" class="">Bahamas</option>
+<option value="tfa_27" class="">Bahrain</option>
+<option value="tfa_28" class="">Bangladesh</option>
+<option value="tfa_29" class="">Barbados</option>
+<option value="tfa_30" class="">Belarus</option>
+<option value="tfa_31" class="">Belgium</option>
+<option value="tfa_32" class="">Belize</option>
+<option value="tfa_33" class="">Benin</option>
+<option value="tfa_34" class="">Bermuda</option>
+<option value="tfa_35" class="">Bhutan</option>
+<option value="tfa_36" class="">Bolivia</option>
+<option value="tfa_37" class="">Bosnia and Herzegovina</option>
+<option value="tfa_38" class="">Botswana</option>
+<option value="tfa_39" class="">Bouvet Island</option>
+<option value="tfa_40" class="">Brazil</option>
+<option value="tfa_41" class="">British Indian Ocean Territory</option>
+<option value="tfa_42" class="">Brunei</option>
+<option value="tfa_43" class="">Bulgaria</option>
+<option value="tfa_44" class="">Burkina Faso</option>
+<option value="tfa_45" class="">Burundi</option>
+<option value="tfa_46" class="">Cambodia</option>
+<option value="tfa_47" class="">Cameroon</option>
+<option value="tfa_48" class="">Canada</option>
+<option value="tfa_49" class="">Cape Verde</option>
+<option value="tfa_50" class="">Cayman Islands</option>
+<option value="tfa_51" class="">Central African Republic</option>
+<option value="tfa_52" class="">Chad</option>
+<option value="tfa_53" class="">Chile</option>
+<option value="tfa_54" class="">China</option>
+<option value="tfa_55" class="">Christmas Island</option>
+<option value="tfa_56" class="">Cocos ( Keeling ) Islands</option>
+<option value="tfa_57" class="">Colombia</option>
+<option value="tfa_58" class="">Comoros</option>
+<option value="tfa_59" class="">Congo</option>
+<option value="tfa_60" class="">Cook Islands</option>
+<option value="tfa_61" class="">Costa Rica</option>
+<option value="tfa_62" class="">Côte d ' Ivoire</option>
+<option value="tfa_63" class="">Croatia ( Hrvatska )</option>
+<option value="tfa_64" class="">Cuba</option>
+<option value="tfa_65" class="">Cyprus</option>
+<option value="tfa_66" class="">Czech Republic</option>
+<option value="tfa_67" class="">Congo ( DRC )</option>
+<option value="tfa_68" class="">Denmark</option>
+<option value="tfa_69" class="">Djibouti</option>
+<option value="tfa_70" class="">Dominica</option>
+<option value="tfa_71" class="">Dominican Republic</option>
+<option value="tfa_72" class="">East Timor</option>
+<option value="tfa_73" class="">Ecuador</option>
+<option value="tfa_74" class="">Egypt</option>
+<option value="tfa_75" class="">El Salvador</option>
+<option value="tfa_76" class="">Equatorial Guinea</option>
+<option value="tfa_77" class="">Eritrea</option>
+<option value="tfa_78" class="">Estonia</option>
+<option value="tfa_79" class="">Ethiopia</option>
+<option value="tfa_80" class="">Falkland Islands ( Islas Malvinas )</option>
+<option value="tfa_81" class="">Faroe Islands</option>
+<option value="tfa_82" class="">Fiji Islands</option>
+<option value="tfa_83" class="">Finland</option>
+<option value="tfa_84" class="">France</option>
+<option value="tfa_85" class="">French Guiana</option>
+<option value="tfa_86" class="">French Polynesia</option>
+<option value="tfa_87" class="">French Southern and Antarctic Lands</option>
+<option value="tfa_88" class="">Gabon</option>
+<option value="tfa_89" class="">Gambia</option>
+<option value="tfa_90" class="">Georgia</option>
+<option value="tfa_91" class="">Germany</option>
+<option value="tfa_92" class="">Ghana</option>
+<option value="tfa_93" class="">Gibraltar</option>
+<option value="tfa_94" class="">Greece</option>
+<option value="tfa_95" class="">Greenland</option>
+<option value="tfa_96" class="">Grenada</option>
+<option value="tfa_97" class="">Guadeloupe</option>
+<option value="tfa_98" class="">Guam</option>
+<option value="tfa_99" class="">Guatemala</option>
+<option value="tfa_100" class="">Guinea</option>
+<option value="tfa_101" class="">Guinea-Bissau</option>
+<option value="tfa_102" class="">Guyana</option>
+<option value="tfa_103" class="">Haiti</option>
+<option value="tfa_104" class="">Heard Island and McDonald Islands</option>
+<option value="tfa_105" class="">Honduras</option>
+<option value="tfa_106" class="">Hong Kong SAR</option>
+<option value="tfa_107" class="">Hungary</option>
+<option value="tfa_108" class="">Iceland</option>
+<option value="tfa_109" class="">India</option>
+<option value="tfa_110" class="">Indonesia</option>
+<option value="tfa_111" class="">Iran</option>
+<option value="tfa_112" class="">Iraq</option>
+<option value="tfa_113" class="">Ireland</option>
+<option value="tfa_114" class="">Israel</option>
+<option value="tfa_115" class="">Italy</option>
+<option value="tfa_116" class="">Jamaica</option>
+<option value="tfa_117" class="">Japan</option>
+<option value="tfa_118" class="">Jordan</option>
+<option value="tfa_119" class="">Kazakhstan</option>
+<option value="tfa_120" class="">Kenya</option>
+<option value="tfa_121" class="">Kiribati</option>
+<option value="tfa_122" class="">Korea</option>
+<option value="tfa_123" class="">Kuwait</option>
+<option value="tfa_124" class="">Kyrgyzstan</option>
+<option value="tfa_125" class="">Laos</option>
+<option value="tfa_126" class="">Latvia</option>
+<option value="tfa_127" class="">Lebanon</option>
+<option value="tfa_128" class="">Lesotho</option>
+<option value="tfa_129" class="">Liberia</option>
+<option value="tfa_130" class="">Libya</option>
+<option value="tfa_131" class="">Liechtenstein</option>
+<option value="tfa_132" class="">Lithuania</option>
+<option value="tfa_133" class="">Luxembourg</option>
+<option value="tfa_134" class="">Macao SAR</option>
+<option value="tfa_135" class="">Macedonia, Former Yugoslav Republic of</option>
+<option value="tfa_136" class="">Madagascar</option>
+<option value="tfa_137" class="">Malawi</option>
+<option value="tfa_138" class="">Malaysia</option>
+<option value="tfa_139" class="">Maldives</option>
+<option value="tfa_140" class="">Mali</option>
+<option value="tfa_141" class="">Malta</option>
+<option value="tfa_142" class="">Marshall Islands</option>
+<option value="tfa_143" class="">Martinique</option>
+<option value="tfa_144" class="">Mauritania</option>
+<option value="tfa_145" class="">Mauritius</option>
+<option value="tfa_146" class="">Mayotte</option>
+<option value="tfa_147" class="">Mexico</option>
+<option value="tfa_148" class="">Micronesia</option>
+<option value="tfa_149" class="">Moldova</option>
+<option value="tfa_150" class="">Monaco</option>
+<option value="tfa_151" class="">Mongolia</option>
+<option value="tfa_152" class="">Montserrat</option>
+<option value="tfa_153" class="">Morocco</option>
+<option value="tfa_154" class="">Mozambique</option>
+<option value="tfa_155" class="">Myanmar</option>
+<option value="tfa_156" class="">Namibia</option>
+<option value="tfa_157" class="">Nauru</option>
+<option value="tfa_158" class="">Nepal</option>
+<option value="tfa_159" class="">Netherlands</option>
+<option value="tfa_160" class="">Netherlands Antilles</option>
+<option value="tfa_161" class="">New Caledonia</option>
+<option value="tfa_162" class="">New Zealand</option>
+<option value="tfa_163" class="">Nicaragua</option>
+<option value="tfa_164" class="">Niger</option>
+<option value="tfa_165" class="">Nigeria</option>
+<option value="tfa_166" class="">Niue</option>
+<option value="tfa_167" class="">Norfolk Island</option>
+<option value="tfa_168" class="">North Korea</option>
+<option value="tfa_169" class="">Northern Mariana Islands</option>
+<option value="tfa_170" class="">Norway</option>
+<option value="tfa_171" class="">Oman</option>
+<option value="tfa_172" class="">Pakistan</option>
+<option value="tfa_173" class="">Palau</option>
+<option value="tfa_174" class="">Panama</option>
+<option value="tfa_175" class="">Papua New Guinea</option>
+<option value="tfa_176" class="">Paraguay</option>
+<option value="tfa_177" class="">Peru</option>
+<option value="tfa_178" class="">Philippines</option>
+<option value="tfa_179" class="">Pitcairn Islands</option>
+<option value="tfa_180" class="">Poland</option>
+<option value="tfa_181" class="">Portugal</option>
+<option value="tfa_182" class="">Puerto Rico</option>
+<option value="tfa_183" class="">Qatar</option>
+<option value="tfa_184" class="">Reunion</option>
+<option value="tfa_185" class="">Romania</option>
+<option value="tfa_186" class="">Russia</option>
+<option value="tfa_187" class="">Rwanda</option>
+<option value="tfa_188" class="">Samoa</option>
+<option value="tfa_189" class="">San Marino</option>
+<option value="tfa_190" class="">São Tomé and Prìncipe</option>
+<option value="tfa_191" class="">Saudi Arabia</option>
+<option value="tfa_192" class="">Senegal</option>
+<option value="tfa_193" class="">Serbia and Montenegro</option>
+<option value="tfa_194" class="">Seychelles</option>
+<option value="tfa_195" class="">Sierra Leone</option>
+<option value="tfa_196" class="">Singapore</option>
+<option value="tfa_197" class="">Slovakia</option>
+<option value="tfa_198" class="">Slovenia</option>
+<option value="tfa_199" class="">Solomon Islands</option>
+<option value="tfa_200" class="">Somalia</option>
+<option value="tfa_201" class="">South Africa</option>
+<option value="tfa_202" class="">South Georgia and the South Sandwich Islands</option>
+<option value="tfa_203" class="">Spain</option>
+<option value="tfa_204" class="">Sri Lanka</option>
+<option value="tfa_205" class="">St. Helena</option>
+<option value="tfa_206" class="">St. Kitts and Nevis</option>
+<option value="tfa_207" class="">St. Lucia</option>
+<option value="tfa_208" class="">St. Pierre and Miquelon</option>
+<option value="tfa_209" class="">St. Vincent and the Grenadines</option>
+<option value="tfa_210" class="">Sudan</option>
+<option value="tfa_211" class="">Suriname</option>
+<option value="tfa_212" class="">Svalbard and Jan Mayen</option>
+<option value="tfa_213" class="">Swaziland</option>
+<option value="tfa_214" class="">Sweden</option>
+<option value="tfa_215" class="">Switzerland</option>
+<option value="tfa_216" class="">Syria</option>
+<option value="tfa_217" class="">Taiwan</option>
+<option value="tfa_218" class="">Tajikistan</option>
+<option value="tfa_219" class="">Tanzania</option>
+<option value="tfa_220" class="">Thailand</option>
+<option value="tfa_221" class="">Togo</option>
+<option value="tfa_222" class="">Tokelau</option>
+<option value="tfa_223" class="">Tonga</option>
+<option value="tfa_224" class="">Trinidad and Tobago</option>
+<option value="tfa_225" class="">Tunisia</option>
+<option value="tfa_226" class="">Turkey</option>
+<option value="tfa_227" class="">Turkmenistan</option>
+<option value="tfa_228" class="">Turks and Caicos Islands</option>
+<option value="tfa_229" class="">Tuvalu</option>
+<option value="tfa_230" class="">Uganda</option>
+<option value="tfa_231" class="">Ukraine</option>
+<option value="tfa_232" class="">United Arab Emirates</option>
+<option value="tfa_233" class="">United Kingdom</option>
+<option value="tfa_234" class="">United States</option>
+<option value="tfa_235" class="">United States Minor Outlying Islands</option>
+<option value="tfa_236" class="">Uruguay</option>
+<option value="tfa_237" class="">Uzbekistan</option>
+<option value="tfa_238" class="">Vanuatu</option>
+<option value="tfa_239" class="">Vatican City</option>
+<option value="tfa_240" class="">Venezuela</option>
+<option value="tfa_241" class="">Viet Nam</option>
+<option value="tfa_242" class="">Virgin Islands ( British )</option>
+<option value="tfa_243" class="">Virgin Islands</option>
+<option value="tfa_244" class="">Wallis and Futuna</option>
+<option value="tfa_245" class="">Yemen</option>
+<option value="tfa_246" class="">Zambia</option>
+<option value="tfa_247" class="">Zimbabwe</option></select></div>
+</div></td>
+<td><div id="tfa_248-D" class="oneField    ">
+<label id="tfa_248-L" for="tfa_248" class="label preField reqMark">Graduation Year</label><br><div class="inputWrapper">
+<input type="text" id="tfa_248" name="tfa_248" value="" style="width: 270px" placeholder="" class="validate-integer required"><span class="field-hint-inactive" id="tfa_248-H"><span id="tfa_248-HH" class="hint">(At the time of the conference.)</span></span>
+</div>
+</div></td>
+</tr>
+<tr><td><div id="tfa_249-D" class="oneField    ">
+<label id="tfa_249-L" for="tfa_249" class="label preField reqMark" style="width: 450px; min-width:0">Upload a formal picture of yourself.</label><br><div class="inputWrapper"><input type="file" id="tfa_249" name="tfa_249" size="40" class="required"></div>
+</div></td></tr>
+</table>
+</fieldset>
+<fieldset id="tfa_454" class="section">
+<legend id="tfa_454-L"><b>MUN Experience</b></legend>
+<div class="htmlSection" id="tfa_455"><div class="htmlContent" id="tfa_455-HTML">Please list your last 10 MUN Experiences in reverse chronological order below.</div></div>
+<table class="gridLayout">
+<tr class="headerRow">
+<th> </th>
+<th id="tfa_457-GRID">Year     </th>
+<th id="tfa_466-GRID">Conference   </th>
+<th id="tfa_467-GRID">Position  </th>
+</tr>
+<tr id="tfa_456" class="section    alternate-0">
+<th id="tfa_456-L" class="headerCol">Experience </th>
+<td><div id="tfa_457-D" class="oneField    "><div class="inputWrapper"><select id="tfa_457" name="tfa_457" class="required"><option value="">Please select...</option>
+<option value="tfa_458" class="">2014</option>
+<option value="tfa_459" class="">2013</option>
+<option value="tfa_460" class="">2012</option>
+<option value="tfa_461" class="">2011</option>
+<option value="tfa_462" class="">2010</option>
+<option value="tfa_463" class="">2009</option>
+<option value="tfa_464" class="">2008</option>
+<option value="tfa_465" class="">2007</option></select></div></div></td>
+<td><div id="tfa_466-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_466" name="tfa_466" value="" style="width: 200px" placeholder="" class="required"></div></div></td>
+<td><div id="tfa_467-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_467" name="tfa_467" value="" style="width: 250px" placeholder="" class="required"></div></div></td>
+</tr>
+<tr id="tfa_468" class="section    alternate-1">
+<th id="tfa_468-L" class="headerCol">Experience </th>
+<td><div id="tfa_469-D" class="oneField    "><div class="inputWrapper"><select id="tfa_469" name="tfa_469" class="required"><option value="">Please select...</option>
+<option value="tfa_470" class="">2014</option>
+<option value="tfa_471" class="">2013</option>
+<option value="tfa_472" class="">2012</option>
+<option value="tfa_473" class="">2011</option>
+<option value="tfa_474" class="">2010</option>
+<option value="tfa_475" class="">2009</option>
+<option value="tfa_476" class="">2008</option>
+<option value="tfa_477" class="">2007</option></select></div></div></td>
+<td><div id="tfa_478-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_478" name="tfa_478" value="" style="width: 200px" placeholder="" class="required"></div></div></td>
+<td><div id="tfa_479-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_479" name="tfa_479" value="" style="width: 250px" placeholder="" class="required"></div></div></td>
+</tr>
+<tr id="tfa_480" class="section    alternate-0">
+<th id="tfa_480-L" class="headerCol">Experience </th>
+<td><div id="tfa_481-D" class="oneField    "><div class="inputWrapper"><select id="tfa_481" name="tfa_481" class="required"><option value="">Please select...</option>
+<option value="tfa_482" class="">2014</option>
+<option value="tfa_483" class="">2013</option>
+<option value="tfa_484" class="">2012</option>
+<option value="tfa_485" class="">2011</option>
+<option value="tfa_486" class="">2010</option>
+<option value="tfa_487" class="">2009</option>
+<option value="tfa_488" class="">2008</option>
+<option value="tfa_489" class="">2007</option></select></div></div></td>
+<td><div id="tfa_490-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_490" name="tfa_490" value="" style="width: 200px" placeholder="" class="required"></div></div></td>
+<td><div id="tfa_491-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_491" name="tfa_491" value="" style="width: 250px" placeholder="" class="required"></div></div></td>
+</tr>
+<tr id="tfa_492" class="section    alternate-1">
+<th id="tfa_492-L" class="headerCol">Experience </th>
+<td><div id="tfa_493-D" class="oneField    "><div class="inputWrapper"><select id="tfa_493" name="tfa_493" class=""><option value="">Please select...</option>
+<option value="tfa_494" class="">2014</option>
+<option value="tfa_495" class="">2013</option>
+<option value="tfa_496" class="">2012</option>
+<option value="tfa_497" class="">2011</option>
+<option value="tfa_498" class="">2010</option>
+<option value="tfa_499" class="">2009</option>
+<option value="tfa_500" class="">2008</option>
+<option value="tfa_501" class="">2007</option></select></div></div></td>
+<td><div id="tfa_502-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_502" name="tfa_502" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_503-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_503" name="tfa_503" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_504" class="section    alternate-0">
+<th id="tfa_504-L" class="headerCol">Experience </th>
+<td><div id="tfa_505-D" class="oneField    "><div class="inputWrapper"><select id="tfa_505" name="tfa_505" class=""><option value="">Please select...</option>
+<option value="tfa_506" class="">2014</option>
+<option value="tfa_507" class="">2013</option>
+<option value="tfa_508" class="">2012</option>
+<option value="tfa_509" class="">2011</option>
+<option value="tfa_510" class="">2010</option>
+<option value="tfa_511" class="">2009</option>
+<option value="tfa_512" class="">2008</option>
+<option value="tfa_513" class="">2007</option></select></div></div></td>
+<td><div id="tfa_514-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_514" name="tfa_514" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_515-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_515" name="tfa_515" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_516" class="section    alternate-1">
+<th id="tfa_516-L" class="headerCol">Experience </th>
+<td><div id="tfa_517-D" class="oneField    "><div class="inputWrapper"><select id="tfa_517" name="tfa_517" class=""><option value="">Please select...</option>
+<option value="tfa_518" class="">2014</option>
+<option value="tfa_519" class="">2013</option>
+<option value="tfa_520" class="">2012</option>
+<option value="tfa_521" class="">2011</option>
+<option value="tfa_522" class="">2010</option>
+<option value="tfa_523" class="">2009</option>
+<option value="tfa_524" class="">2008</option>
+<option value="tfa_525" class="">2007</option></select></div></div></td>
+<td><div id="tfa_526-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_526" name="tfa_526" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_527-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_527" name="tfa_527" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_528" class="section    alternate-0">
+<th id="tfa_528-L" class="headerCol">Experience </th>
+<td><div id="tfa_529-D" class="oneField    "><div class="inputWrapper"><select id="tfa_529" name="tfa_529" class=""><option value="">Please select...</option>
+<option value="tfa_530" class="">2014</option>
+<option value="tfa_531" class="">2013</option>
+<option value="tfa_532" class="">2012</option>
+<option value="tfa_533" class="">2011</option>
+<option value="tfa_534" class="">2010</option>
+<option value="tfa_535" class="">2009</option>
+<option value="tfa_536" class="">2008</option>
+<option value="tfa_537" class="">2007</option></select></div></div></td>
+<td><div id="tfa_538-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_538" name="tfa_538" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_539-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_539" name="tfa_539" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_540" class="section    alternate-1">
+<th id="tfa_540-L" class="headerCol">Experience </th>
+<td><div id="tfa_541-D" class="oneField    "><div class="inputWrapper"><select id="tfa_541" name="tfa_541" class=""><option value="">Please select...</option>
+<option value="tfa_542" class="">2014</option>
+<option value="tfa_543" class="">2013</option>
+<option value="tfa_544" class="">2012</option>
+<option value="tfa_545" class="">2011</option>
+<option value="tfa_546" class="">2010</option>
+<option value="tfa_547" class="">2009</option>
+<option value="tfa_548" class="">2008</option>
+<option value="tfa_549" class="">2007</option></select></div></div></td>
+<td><div id="tfa_550-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_550" name="tfa_550" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_551-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_551" name="tfa_551" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_552" class="section    alternate-0">
+<th id="tfa_552-L" class="headerCol">Experience </th>
+<td><div id="tfa_553-D" class="oneField    "><div class="inputWrapper"><select id="tfa_553" name="tfa_553" class=""><option value="">Please select...</option>
+<option value="tfa_554" class="">2014</option>
+<option value="tfa_555" class="">2013</option>
+<option value="tfa_556" class="">2012</option>
+<option value="tfa_557" class="">2011</option>
+<option value="tfa_558" class="">2010</option>
+<option value="tfa_559" class="">2009</option>
+<option value="tfa_560" class="">2008</option>
+<option value="tfa_561" class="">2007</option></select></div></div></td>
+<td><div id="tfa_562-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_562" name="tfa_562" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_563-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_563" name="tfa_563" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_564" class="section    alternate-1">
+<th id="tfa_564-L" class="headerCol">Experience </th>
+<td><div id="tfa_565-D" class="oneField    "><div class="inputWrapper"><select id="tfa_565" name="tfa_565" class=""><option value="">Please select...</option>
+<option value="tfa_566" class="">2014</option>
+<option value="tfa_567" class="">2013</option>
+<option value="tfa_568" class="">2012</option>
+<option value="tfa_569" class="">2011</option>
+<option value="tfa_570" class="">2010</option>
+<option value="tfa_571" class="">2009</option>
+<option value="tfa_572" class="">2008</option>
+<option value="tfa_573" class="">2007</option></select></div></div></td>
+<td><div id="tfa_574-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_574" name="tfa_574" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_575-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_575" name="tfa_575" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_576" class="section    alternate-0">
+<th id="tfa_576-L" class="headerCol">Experience </th>
+<td><div id="tfa_577-D" class="oneField    "><div class="inputWrapper"><select id="tfa_577" name="tfa_577" class=""><option value="">Please select...</option>
+<option value="tfa_578" class="">2014</option>
+<option value="tfa_579" class="">2013</option>
+<option value="tfa_580" class="">2012</option>
+<option value="tfa_581" class="">2011</option>
+<option value="tfa_582" class="">2010</option>
+<option value="tfa_583" class="">2009</option>
+<option value="tfa_584" class="">2008</option>
+<option value="tfa_585" class="">2007</option></select></div></div></td>
+<td><div id="tfa_586-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_586" name="tfa_586" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_587-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_587" name="tfa_587" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+<tr id="tfa_588" class="section    alternate-1">
+<th id="tfa_588-L" class="headerCol">Experience </th>
+<td><div id="tfa_589-D" class="oneField    "><div class="inputWrapper"><select id="tfa_589" name="tfa_589" class=""><option value="">Please select...</option>
+<option value="tfa_590" class="">2014</option>
+<option value="tfa_591" class="">2013</option>
+<option value="tfa_592" class="">2012</option>
+<option value="tfa_593" class="">2011</option>
+<option value="tfa_594" class="">2010</option>
+<option value="tfa_595" class="">2009</option>
+<option value="tfa_596" class="">2008</option>
+<option value="tfa_597" class="">2007</option></select></div></div></td>
+<td><div id="tfa_598-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_598" name="tfa_598" value="" style="width: 200px" placeholder="" class=""></div></div></td>
+<td><div id="tfa_599-D" class="oneField    "><div class="inputWrapper"><input type="text" id="tfa_599" name="tfa_599" value="" style="width: 250px" placeholder="" class=""></div></div></td>
+</tr>
+</table>
+</fieldset>
+<fieldset id="tfa_291" class="section">
+<legend id="tfa_291-L"><b>Preferred Position</b></legend>
+<div id="tfa_292-D" class="oneField    "><div class="inputWrapper"><span id="tfa_292" class="choices  required"><span class="oneChoice"><input type="radio" value="tfa_293" class="switch-b" id="tfa_293" name="tfa_292"><label class="label postField" id="tfa_293-L" for="tfa_293">Photographer</label></span><span class="oneChoice"><input type="radio" value="tfa_294" class="switch-a" id="tfa_294" name="tfa_292"><label class="label postField" id="tfa_294-L" for="tfa_294">Journalist</label></span></span></div></div>
+<fieldset id="tfa_295" class="section offstate-b">
+<legend id="tfa_295-L"><i><b>Photographer</b></i></legend>
+<div class="htmlSection" id="tfa_296"><div class="htmlContent" id="tfa_296-HTML">Please submit two JPEG (we do not accept RAW submissions) photos, in a zipped format below. Please do not blank out the metadata.</div></div>
+<div id="tfa_297-D" class="oneField    "><div class="inputWrapper"><input type="file" id="tfa_297" name="tfa_297" size="40" class="required"></div></div>
+<div id="tfa_600-D" class="oneField    "><div class="inputWrapper"><input type="file" id="tfa_600" name="tfa_600" size="40" class="required"></div></div>
+</fieldset>
+<fieldset id="tfa_298" class="section required-one offstate-a">
+<legend id="tfa_298-L"><b><i>Journalist</i></b></legend>
+<div class="htmlSection" id="tfa_299"><div class="htmlContent" id="tfa_299-HTML">Please submit an example article of yours, consisting of minimum 400 words, and that will portray your talents as a journalist. You can either copy-and-paste it below or upload it from your system.</div></div>
+<div id="tfa_300-D" class="oneField    "><div class="inputWrapper"><input type="file" id="tfa_300" name="tfa_300" size="40" class=""></div></div>
+<div id="tfa_301-D" class="oneField    "><div class="inputWrapper"><textarea cols="40" id="tfa_301" name="tfa_301" class=""></textarea></div></div>
+</fieldset>
+</fieldset>
+<fieldset id="tfa_302" class="section">
+<legend id="tfa_302-L"><b>Motivation Letter</b></legend>
+<div class="htmlSection" id="tfa_303"><div class="htmlContent" id="tfa_303-HTML">You are required to write below or upload a brief essay of 300 words minimum, entailing your previous journalistic/photography experiences, why you think you are qualified for this position and your reasons for applying.</div></div>
+<div id="tfa_304-D" class="oneField    "><div class="inputWrapper"><textarea cols="40" id="tfa_304" name="tfa_304" class=""></textarea></div></div>
+<div id="tfa_305-D" class="oneField    "><div class="inputWrapper"><input type="file" id="tfa_305" name="tfa_305" size="40" class=""></div></div>
+</fieldset>
+<fieldset id="tfa_306" class="section">
+<legend id="tfa_306-L"><b>Recommendation</b></legend>
+<div class="htmlSection" id="tfa_307"><div class="htmlContent" id="tfa_307-HTML">Please have your MUN advisor email a recommendation letter to recommendation@modelundp.org. Applications without recommendations will not be considered.</div></div>
+</fieldset>
+<div><fieldset class="captcha">
+<legend><strong>Captcha</strong></legend>
+Please enter the characters you see in this picture:
+<div class="oneField">
+<img src="http://www.tfaforms.com/forms/captcha" width="200" height="60" alt="Visual CAPTCHA"><br><label class="preField" for="tfa_captcha_text">Characters:</label> <input type="text" name="tfa_captcha_text" id="tfa_captcha_text"><br>
+</div>
+<div class="captchaHelp">This helps prevent automated form submissions. If you are not sure what the characters are, make your best guess. You will have another try in the next screen.<br>
+</div>
+</fieldset></div>
+<div class="actions" id="tfa_0-A">
+<input type="button" class="secondaryAction" value="cancel" onclick="history.go(-1)"><input type="submit" class="primaryAction" value="Submit">
+</div>
+<div style="clear:both"></div>
+<input type="hidden" value="290333" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="a55e5bd19544d434d9f12c20d2c7e805" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="12" name="tfa_dbVersionId" id="tfa_dbVersionId">
+</form>
+</div></div>
+
+  
+
+
+  
+</div>
+ </div>
+  
+  <div class="footer">
+ 
+<div id="twitter">
+  <a href="http://twitter.com/modelundp"  target="_blank"onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('twitter_icon','','images/twitter_2.png',1)"><img src="images/twitter.png" width="60" height="60" id="twitter_icon" /></a> </a>
+</div>
+  
+  <div id="facebook">
+    <a href="http://facebook.com/modelundp" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('facebook_icon','','images/facebook_2.png',1)"><img src="images/facebook.png" width="65" height="75" id="facebook_icon" /></a> 
+    
+ 
+    <span class="commitment">Commitment to Development</span> </div>
+   
+   <div id="by">
+   designed by <a href="mailto:publications@modelundp.com"style="text-decoration:none"><strong>Doğa Barsgan</strong></a> | sponsored by <a href="mailto:ibrahim@atabasaran.com"style="text-decoration:none">Ata Başaran</a>
+  </div>
+  
+  <div id="copyright">
+  © 2013-2014 Koç Model United Nations Development Programme <br> 
+  The Koc School | <a href="http://www.kocschool.k12.tr" target="_blank"style="text-decoration:none";"font-style:normal";>www.kocschool.k12.tr</a>
+  </div>
+  
+  </div>
+ 
+  
+  
+  
+  </div> 
+   
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+
+</body>
+</html>
